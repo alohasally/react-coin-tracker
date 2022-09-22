@@ -1,0 +1,33 @@
+
+
+
+.App {
+  background-color: #24314c; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App ul{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 50px;
+  width: 100%;
+  flex-wrap: wrap ;
+
+}
+
+.App li {
+  list-style: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
+  padding-bottom: 10px; 
+  width: 300px;
+}
